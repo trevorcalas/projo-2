@@ -1,0 +1,42 @@
+body {
+  background-image: url("http://www.invistaperforms.org/wp-content/uploads/2017/01/Classroom-Desks-1024x834.jpg");
+  background-size: cover;
+  background-position: 20%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.333333 33.333333 33.333333;
+  background-color: #3399ff;
+  padding: 20px;
+}
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+ 
+ .text {
+	 color: #0066ff;
+	 font-size: 20px;
+	 background-color: white;
+ }
+
+ .parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+border: 1px black solid;
+ }
+.div1 {
+border: 1px black solid;
+}
+.div2 {
+border: 1px black solid;
+}
+.div3 {
+border: 1px black solid;
+}
